@@ -58,7 +58,7 @@ public class Guesser extends JFrame {
 	su.play();
 
 	setUndecorated(true);
-	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	setBounds(100, 100, 720, 480);
 	contentPane = new JPanel();
 	contentPane.setBackground(new Color(147, 225, 204));
@@ -99,7 +99,7 @@ public class Guesser extends JFrame {
 	input3.setOpaque(false);
 	input3.setForeground(new Color(206, 247, 255));
 	input3.setFont(new Font("Times New Roman", Font.BOLD, 16));
-	input3.setHorizontalAlignment(JTextField.CENTER);
+	input3.setHorizontalAlignment(SwingConstants.CENTER);
 	input3.setColumns(10);
 	input3.setBounds(499, 199, 150, 50);
 	contentPane.add(input3);
@@ -117,7 +117,7 @@ public class Guesser extends JFrame {
 	input2.setOpaque(false);
 	input2.setForeground(new Color(206, 247, 255));
 	input2.setFont(new Font("Times New Roman", Font.BOLD, 16));
-	input2.setHorizontalAlignment(JTextField.CENTER);
+	input2.setHorizontalAlignment(SwingConstants.CENTER);
 	input2.setColumns(10);
 	input2.setBounds(275, 199, 150, 50);
 	contentPane.add(input2);
@@ -147,7 +147,7 @@ public class Guesser extends JFrame {
 	input1.setForeground(new Color(206, 247, 255));
 	input1.setFont(new Font("Times New Roman", Font.BOLD, 16));
 	input1.setBounds(40, 199, 150, 50);
-	input1.setHorizontalAlignment(JTextField.CENTER);
+	input1.setHorizontalAlignment(SwingConstants.CENTER);
 	contentPane.add(input1);
 	input1.setColumns(10);
 	input1.setOpaque(false);
@@ -208,7 +208,7 @@ public class Guesser extends JFrame {
 	Random_number = new JTextField();
 	Random_number.setForeground(new Color(206, 247, 255));
 	Random_number.setFont(new Font("Times New Roman", Font.BOLD, 16));
-	Random_number.setHorizontalAlignment(JTextField.CENTER);
+	Random_number.setHorizontalAlignment(SwingConstants.CENTER);
 	Random_number.setBounds(340, 294, 150, 50);
 	contentPane.add(Random_number);
 	Random_number.setColumns(10);
